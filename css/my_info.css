@@ -1,0 +1,124 @@
+
+.myInfo{
+    width: 95%;
+    box-shadow:0 20px 30px rgb(206, 199, 199),0 11px 8px rgba(0, 0, 0, 22);
+    box-sizing: border-box;
+    transition: 0.5s;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+}
+.img-info{
+    width: 100%;
+}
+.img-info h2{
+    padding: 30px 30px 20px;
+    font-family: arial;
+    font-size: 20px;
+    color:rgb(231, 221, 221);
+    line-height: 44px;
+}
+.img-info p{
+    padding: 0px 30px 20px;
+    font-family: arial;
+    font-size: 16px;
+    color:rgb(228, 218, 218);
+    line-height: 24px;
+}/*meeee*/
+.card{
+    background-color: black;
+    box-shadow:0 20px 30px rgb(191, 209, 209),0 11px 8px rgba(0, 0, 0, 22);
+    width: 80%;
+    box-sizing: border-box;
+    transition: 0.1s;
+    color: white;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 auto;
+}
+
+.card>img{
+    border-radius: 5%;
+    display: block;
+    max-width: 100%;
+    margin: 0px;
+}
+.card>ul>li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px 10px 10px 10px;
+    text-align: left;
+    font-size: small;
+}
+.card:focus{
+    box-shadow: 0 18px 36px rgba(aqua),0 14px 11px rgba(0, 0, 0, 22);
+    width:270;
+}
+@media only screen and (min-width:768px){
+    .myInfo {
+        width: 600px;
+        margin: 0 auto;
+        border: silver solid ridge 4px;
+        box-shadow:0 20px 30px rgb(226, 180, 180),0 11px 8px rgba(0, 0, 0, 22);
+        width: 95%;
+        box-sizing: border-box;
+        color: rgb(231, 220, 220);
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 0 auto;
+    }
+    .img-info h2{
+        padding:20px 20px 0px;
+    }
+    .img-info p{
+        padding: 20px 20px 20px;
+        font-family: arial;
+        font-size: 16px;
+        color:rgb(230, 219, 219);
+        line-height: 24px;
+    }
+    .card{
+        padding-top: 0px;
+    }
+    .card>p{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 0px 10px 10px 10px;
+        text-align: left;
+        font-size: large;
+}
+@media only screen and (min-width:1000px){
+    .myInfo{
+        width: 70%;
+        align-self: center;
+        box-shadow:30px 30px 30px aqua,0 11px 8px rgba(0, 0, 0, 22);
+        box-sizing: border-box;
+        transition: 1s;
+        color: rgb(221, 204, 204);
+        font-weight: lighter;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 0 auto;
+
+    }
+    .img-info{
+        width: 50%;
+        float: left;
+    }
+    .img-info h2{
+         padding:20px 0px 0px 30px;
+    }
+    .img-info p{
+        padding:20px 0px 0px 30px;
+    }
+    .card{
+        padding-top:40px;
+        width: 40%;
+        float: right;
+        border: 20px solid silver ridge;
+        border-radius:0%;
+    }
+    .card>p{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 0px 10px 10px 10px;
+        text-align: left;
+        font-size: medium;
+    }
+}
